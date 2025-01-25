@@ -3,7 +3,7 @@ const { Worker } = require('worker_threads'); // Importa Worker Threads para mul
 const path = require('path'); // Importa path para lidar com caminhos de arquivos
 
 const app = express(); // Inicializa o aplicativo Express
-const PORT = 3000; // Define a porta do servidor
+const PORT = 3001; // Define a porta do servidor
 
 // Middleware para interpretar JSON no corpo das requisições
 app.use(express.json());
