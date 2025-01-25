@@ -5,7 +5,7 @@ const path = require('path'); // Importa path para lidar com caminhos de arquivo
 const app = express(); // Inicializa o aplicativo Express
 const PORT = 3001; // Define a porta do servidor
 
-// Middleware para interpretar JSON no corpo das requisições
+// Middleware para interpretar JSON no corpo das requisiçõe
 app.use(express.json());
 
 // Servir arquivos estáticos (frontend)
